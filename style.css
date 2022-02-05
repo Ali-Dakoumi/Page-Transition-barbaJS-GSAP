@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(251, 238, 238);
+  font-family: "Comfortaa", cursive;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+nav {
+  min-height: 8vh;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  height: fit-content;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  width: 100vw;
+  background: transparent;
+}
+.text {
+  font-size: 4rem;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  background-color: transparent;
+  z-index: 100;
+  visibility: hidden;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pages {
+  margin-top: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+}
+.page {
+  width: 500px;
+  height: 400px;
+}
+.page img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 500px;
+}
+
+section {
+  padding: 10vh;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20vh;
+}
+
+.paragragh {
+  width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 90vw;
+  }
+  .page {
+    width: 230px;
+    height: 200px;
+  }
+  .info {
+    width: 230px;
+    font-size: 10px;
+    padding-top: 0.2rem;
+  }
+  section {
+    padding: 2rem;
+    font-size: 10px;
+  }
+  .text {
+    font-size: 2.2rem;
+  }
+  .textwrapper {
+    top: 33%;
+  }
+}
