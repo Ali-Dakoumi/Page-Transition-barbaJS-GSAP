@@ -1,6 +1,6 @@
 # Page-Transition-barbaJS-GSAP
 
-Check it out here : https://aliidak.github.io/Page-Transition-barbaJS-GSAP/
+Check it out here : https://ali-dakoumi.github.io/Page-Transition-barbaJS-GSAP/index.html
 
 Simple project using barba JS to make creative web page transitions. Inspired by Wrong Akram Project with react router, you can find it on YouTube.
 
